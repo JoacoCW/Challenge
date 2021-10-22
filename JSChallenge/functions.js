@@ -43,22 +43,17 @@ class Car {
         this.year = year;
     }
     isOn() {
-        if (car.turnedOn) {
+        if (this.turnedOn) {
             return true;
         } else {
             return false;
         };
     }
     turnOn() {
-        if (car.turnedOn) {
-        } else {
-            turnedOn = true;
-        };
+        turnedOn = true;
     }
     turnOff() {
-        if (car.turnedOn) {
-            turnedOn = false;
-        };
+        turnedOn = false;
     }
     toString() {
         return (this.year + ' ' + this.make + ' ' + this.model + ' ' + this.engineDisplacement);

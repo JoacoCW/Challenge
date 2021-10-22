@@ -1,4 +1,4 @@
-// Function that receives an array of positive integers and returns an array with only the input´s pair numbers
+// Function that receives an array of positive integers and returns an array with only the input´s even numbers
 
 let newarr = []
 
@@ -16,7 +16,7 @@ let exampleArr = [1,2,3,4]
 
 console.log(evens(exampleArr));
 
-// Function that receives a string as parameter and returns a Boolean value indicating if the word is a palindromes or not
+// Function that receives a string as parameter and returns a Boolean value indicating if the word is a palindrome or not
 
 const palindromeChecker = (str) => {
     for ( let i = 0 ; i < str.length/2 ; i++){
@@ -32,7 +32,7 @@ const palindromeChecker = (str) => {
 console.log(palindromeChecker('ana'));  //True
 console.log(palindromeChecker('anythingElse')); // False
 
-// Create a Car object with tha mentioned attributes
+// Create a Car object with the mentioned attributes
 
 class Car {
     constructor(make, model, turnedOn, engineDisplacement, year) {

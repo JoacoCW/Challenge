@@ -43,7 +43,7 @@ class Car {
         this.year = year;
     }
     isOn() {
-        if (this.turnedOn) {
+        if (this.turnedOn  == true ) {
             return true;
         } else {
             return false;
